@@ -212,20 +212,20 @@
             label = "Num";
             bindings = <	
 
-                &tog SYM_L &kp N7     &kp N8      &kp N9          &kp BSLH      &kp TILDE       &kp LBKT        &sk RSHFT   &kp RBKT     &kp DEL
+                &kp SPACE  &kp N7     &kp N8      &kp N9          &kp BSLH      &kp TILDE       &kp LBKT        &sk RSHFT   &kp RBKT     &kp DEL
                 &kp SEMI   &kp N4     &kp N5	  &kp N6       	  &kp EQUAL     &kp PLUS        &kp LPAR        &kp DOT     &kp RPAR     &kp N0
                 &kp LT	   &kp N1     &kp N2      &kp N3          &kp GT        &kp GRAVE       &kp LBRC        &kp COMMA   &kp RBRC     &kp FSLH
-                                                  &kp MINUS       &kp SPACE     &trans          &trans
+                                                  &kp MINUS       &mo SYM_L     &trans          &trans
             >;
         };
 	
 	sym_layer {
             label = "Sym";
             bindings = <
-                &tog SYM_L   &kp LS(N7)  &kp LS(N8)  &kp LS(N9) &kp LS(BSLH)    &trans          &kp LBKT        &trans	    &kp RBKT     &kp DEL
+                &kp SPACE    &kp LS(N7)  &kp LS(N8)  &kp LS(N9) &kp LS(BSLH)    &trans          &kp LBKT        &trans	    &kp RBKT     &kp DEL
                 &kp COLON    &kp LS(N4)  &kp LS(N5)  &kp LS(N6) &kp PLUS        &kp PLUS        &kp LPAR        &kp DOT     &kp RPAR     &kp LS(N0)
                 &kp LT       &kp LS(N1)  &kp LS(N2)  &kp LS(N3) &kp GT          &trans          &kp LBRC        &kp COMMA   &kp RBRC     &trans
-                                                     &kp UNDER  &kp SPACE       &trans 		&trans
+                                                     &kp UNDER  &trans          &trans 		&trans
             >;
         };
 
