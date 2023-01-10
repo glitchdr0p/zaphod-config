@@ -1,6 +1,8 @@
 manifest:
   remotes:
     - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: glitchdr0p
       url-base: https://github.com/glitchdr0p
   projects:
     - name: zmk
