@@ -197,6 +197,7 @@
                 &kp Z 	   &lm LS(N1) X      &lm LS(N2) C        &lm LS(N3) D         &kp V         &kp K            &kp H          &hm SEMI COMMA   &hm EXCL DOT &kp FSLH
                                                   &sk LSHFT	 &lt MED_L SPACE      &mo NUM_L	    &kp LGUI
             >;
+	};
 
         bluetooth_layer {
             label = "BT";
